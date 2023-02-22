@@ -36,6 +36,6 @@ else {
     
 }
     
-
+console.log(result.main.temp)
 }
 
