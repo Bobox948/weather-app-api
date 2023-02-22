@@ -8,8 +8,8 @@
   "description": "",
   "main": "myjs.js",
   "scripts": {
-    "build": "webpack",
-    "watch": "webpack --watch"
+    "build": "webpack --progress --mode=production",
+    "watch": "webpack --progress --watch"
   },
   "author": "",
   "license": "ISC",
