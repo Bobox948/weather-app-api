@@ -1,12 +1,6 @@
-
-document.addEventListener('DOMContentLoaded', function() { 
-
-    document.querySelector('#submit').addEventListener('click', search)
-
-
-
-async function search(e){
+export async function search(e){
     e.preventDefault()    // prevents default when charging the page
+
     const content = document.querySelector('.content');
 
     var searchbar = document.querySelector('#search')
@@ -25,7 +19,7 @@ if (result.main.temp < 15) // if temp is cold, we display a grey background and 
     var sun = document.querySelector('.sun')
     sun.classList.remove('sun')
     sun.classList.add('bad')
-
+    
 
     
 }
@@ -44,10 +38,4 @@ else {
     
 
 }
-
-
-
-
-
-})
 

@@ -1,0 +1,25 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bobox948/weather-app-api.git"
+  },
+  "description": "",
+  "main": "myjs.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bobox948/weather-app-api/issues"
+  },
+  "homepage": "https://github.com/Bobox948/weather-app-api#readme",
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
